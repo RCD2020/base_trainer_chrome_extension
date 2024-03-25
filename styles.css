@@ -1,0 +1,16 @@
+#trainer {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.correct {
+    background-color: #4a4;
+}
+
+.incorrect {
+    background-color: #f44;
+}
+
+.unanswered {
+    background-color: #8af;
+}

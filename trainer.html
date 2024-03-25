@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Base Trainer</title>
+
+        <script src="trainer.js" defer></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="header">
+            <h1>Base Trainer</h1>
+        </div>
+
+        <div id="config">
+            <label for="base">Base</label>
+            <input type="number" min="2", max="36" step="1" value="2" name="base" id="base">
+            <br>
+            <label for="length">Length</label>
+            <input type="number" min="2", max="8", step="1", value="6", name="length" id="length">
+            <br>
+            <button id="generate_problem">Go!</button>
+        </div>
+
+        <br>
+
+        <div id="trainer" class="unanswered">
+            <h3 id="number"></h3>
+            <input type="number" id="answer">
+            <button id="check_answer">Submit</button>
+        </div>
+    </body>
+</html>
