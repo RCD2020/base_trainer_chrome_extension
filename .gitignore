@@ -1,2 +1,5 @@
 # Hides personal files
 logos
+
+# apple files
+.DS_Store
