@@ -7,6 +7,9 @@
         "default_popup": "trainer.html"
     },
     "icons": {
-        "128": "images/Base Trainer 128x128.png"
+        "128": "images/Base Trainer 128x128.png",
+        "48": "images/Base Trainer 48x48.png",
+        "32": "images/Base Trainer 32x32.png",
+        "16": "images/Base Trainer 16x16.png"
     }
 }
